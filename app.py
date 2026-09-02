@@ -380,10 +380,10 @@ with tab3:
 
     example_cols = st.columns(4)
     examples = [
-        "Match rate kya hai?",
-        "Exceptions dikhao",
-        "Agle mahine budget kaisa hai?",
-        "Partial payments kaunse hain?",
+        "What's the match rate?",
+        "Show exceptions",
+        "How's next month's forecast?",
+        "Which payments are partial?",
     ]
     clicked = None
     for col, ex in zip(example_cols, examples):
